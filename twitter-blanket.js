@@ -42,14 +42,14 @@ $(function() {
   });
 
 
-  $('.tweet').click(function(e) {
-    console.log(document.getElementsByClassName('has-replies')[0]);
-    var bullshit = document.getElementsByClassName('has-replies')[0],
-    button = document.createElement("BUTTON"),
-    deathnote = document.createTextNode("Show Thread");
-
-    button.appendChild(deathnote);
-    bullshit.appendChild(button);
-
-  });
+  // $('.tweet').click(function(e) {
+  //   console.log(document.getElementsByClassName('has-replies')[0]);
+  //   var bullshit = document.getElementsByClassName('has-replies')[0],
+  //   button = document.createElement("BUTTON"),
+  //   deathnote = document.createTextNode("Show Thread");
+  //
+  //   button.appendChild(deathnote);
+  //   bullshit.appendChild(button);
+  //
+  // });
 });
