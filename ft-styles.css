@@ -25,3 +25,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.replies-to {
+  display: none !important;
+}
+
+.replies-to.show {
+  display: unset;
+}
